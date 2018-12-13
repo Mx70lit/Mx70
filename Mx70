@@ -23,10 +23,10 @@ clear
 echo -e $red"[#]> (Ctrl + C ) Detected, Trying To Exit ... "
 sleep 1
 echo ""
-echo -e $green"[#]> Babay"
+echo -e $green"[#]> Thankss"
 sleep 1
 echo ""
-echo -e $white"[#]> created by Mx70lit "
+echo -e $white"[#]> sampai jumpa "
 read enter
 exit
 }
@@ -37,19 +37,19 @@ echo -e $blue"          |     \_/     | \  \/  /       /  / | |    | |"
 echo -e $yellow"        |   |\   /|   | /      \      /  /  | |____| |"
 echo -e $yellow"        |___| \_/ |___|/___/\___\    /__/   |________|"
 echo -e $cyan"         ***********************************************"
-echo -e $lightgreen"       # $red Tools For Hack         $white          #"
-echo -e $cyan"         # $red Coded       : Mx70lit    $red          #"
-echo -e $lightgreen"       # $red IG          : Medhat_70lit $white      #"
-echo -e $cyan"         # $white greetz    : DarkmythsCyberTeam $red  #"
-echo -e $lightgreen"       # $white copyright : Mx70liT © 2018  $white   #"
-echo -e $cyan"         # $white thanks to : All Membet DMCT  $red    #"
-echo -e $lightgreen"       ***********************************************"
+echo -e $lightgreen"      # $red           Tools For Hack          $lightgreen #"
+echo -e $cyan"           # $white   Coded     : Mx70lit            $cyan #"
+echo -e $lightgreen"      # $white   IG        : Medhat_70lit       $lightgreen #"
+echo -e $cyan"           # $yellow  greetz    : DarkmythsCyberTeam $cyan #"
+echo -e $lightgreen"      # $yellow  copyright : Mx70liT © 2018     $lightgreen #"
+echo -e $cyan"           # $yellow  thanks to : All Membet DMCT    $cyan #"
+echo -e $lightgreen"        ***********************************************"
 echo ""
 echo -e $red" 01) Spam Whatsapp"
 echo -e $white" 02) Multi BruteForce"
 echo -e $red" 03) Webdav"
 echo -e $white" 04) Metasploit"
-echo -e $red" 05) BruteForce"
+echo -e $red" 05) BruteForce Instagram"
 echo -e $white" 06) phising"
 echo -e $red" 07) Kali Nethunter"
 echo -e $white" 08) Ubuntu"
@@ -62,7 +62,7 @@ read -p "[mx70lit]> " act;
 if [ $act = 01 ] || [ $act = 01 ]
 then
 clear
-echo -e $green" Installing Multi BruteForce "
+echo -e $green" Installing Spam Whatsapp "
 sleep 1
 apt update && apt upgrade
 apt install php
@@ -71,4 +71,140 @@ git clone https://github.com/Mx70lit/spam
 echo -e $yellow" selesai cukk"
 echo -e $yellow" ketik 'sh spam
 sh' untuk melanjutkan "
+fi
+
+
+if [ $act = 02 ] || [ $act = 02 ]
+then
+clear
+echo -e $green" Installing Multi BruteForce "
+sleep 1
+apt update && apt upgrade
+apt install python2
+apt install php
+apt install git
+git clone https://github.com/YukersCreew/mbf
+echo -e $yellow" selesai cukk"
+echo -e $yellow" ketik 'python2 MBF.py' untuk melanjutkan "
+fi
+
+if [ $act = 03 ] || [ $act = 03 ]
+then
+clear
+echo -e $green" Installing Multi BruteForce "
+sleep 1
+apt update && apt upgrade
+apt install python2
+apt install php
+cd Webdav.py
+echo -e $yellow" selesai cukk"
+echo -e $yellow" ketik 'python2 MBF.py' untuk melanjutkan "
+fi
+
+if [ $act = 04 ] || [ $act = 04 ]
+then
+clear
+echo -e $green" Installing Metasploit "
+sleep 1
+apt update && apt upgrade
+apt install git
+apt install wget
+wget https://raw.githubusercontent.com/verluchie/termux-metasploit/master/install.sh
+chmod 777 install.sh
+sh install.sh
+echo -e $red" selesai Cuk "
+fi
+
+
+if [ $act = 05 ] || [ $act = 05 ]
+then
+clear
+echo -e $green" Installing BruteForce Instagram "
+sleep 1
+apt update && apt upgrade
+apt install python -y
+apt install git -y
+git clone https://github.com/avramit/instahack/ ighack/
+cd ighack
+pip install argparse requests PySocks asyncio proxybroker
+mv hackinsta.py main.py
+echo -e $yellow" selesai cukk"
+fi
+
+if [ $act = 06 ] || [ $act = 06 ]
+then
+clear
+echo -e $green" Installing phising "
+sleep 1
+apt update && apt upgrade
+apt install curl
+apt install git
+git clone https://github.com/thelinuxchoice/shellphish
+cd shellpish
+bash shellpish.sh
+echo -e $yellow" selesai cukk"
+fi
+
+if [ $act = 07 ] || [ $act = 07 ]
+then
+clear
+echo -e $green" Installing Kali Nethunter "
+sleep 1
+apt update && apt upgrade
+apt install git
+git clone https://github.com/Hax4us/Nethunter-In-Termux.git
+cd ~/Nethunter-In-Termux
+chmod 777 kalinethunter
+sh kalinethunter
+echo -e $red" selesai Cuk "
+fi
+
+
+if [ $act = 08 ] || [ $act = 08 ]
+then
+clear
+echo -e $green" Installing Ubuntu "
+sleep 1
+apt update && apt upgrade
+apt install git
+apt install wget
+apt install proot
+git clone https://github.com/Neo-Oli/termux-ubuntu.git
+cd ~/termux-ubuntu
+chmod +x ubuntu.sh
+sh ubuntu.sh
+echo " Fix network please wait "
+sleep 1
+echo "nameserver 8.8.8.8" > /data/data/com.termux/files/home/termux-ubuntu/ubuntu-fs/etc/resolv.conf
+echo -e $red" selesai Cuk "
+fi
+
+
+if [ $act = 09 ] || [ $act = 09 ]
+then
+clear
+echo -e $green" Installing Youtube DL "
+sleep 1
+apt update && apt upgrade
+apt install python
+pip3 install mps_youtube
+pip3 install youtube_dl
+apt install mpv
+echo " Untuk menjalankannya ketik "mpsyt" tanpa tanda petik "
+echo -e $red" selesai Cuk "
+fi
+
+if [ $act = 10 ] || [ $act = 10 ]
+then
+clear
+echo -e $green" Installing viSQL "
+sleep 1
+apt update && apt upgrade
+pkg install git
+pkg install python
+git clone https://github.com/blackvkng/viSQL.git
+cd ~/viSQL
+chmod 777 viSQL.py
+cd ~/
+echo -e $red" selesai Cuk "
 fi
