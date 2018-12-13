@@ -1,0 +1,74 @@
+#!/bin/bash
+
+# Mx70 Tools V.0.1
+# code by Mx70liT
+# gausah ganti copyright kalo mau di hargai :)
+clear
+
+blue='\e[0;34'
+cyan='\e[0;36m'
+green='\e[0;34m'
+okegreen='\033[92m'
+lightgreen='\e[1;32m'
+white='\e[1;37m'
+red='\e[1;31m'
+yellow='\e[1;33m'
+
+###################################################
+# CTRL C
+###################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo -e $red"[#]> (Ctrl + C ) Detected, Trying To Exit ... "
+sleep 1
+echo ""
+echo -e $green"[#]> Babay"
+sleep 1
+echo ""
+echo -e $white"[#]> created by Mx70lit "
+read enter
+exit
+}
+
+echo -e $blue"           ____     ____ ___    ___  ________  ________"
+echo -e $blue"          /    \   /    \\  \  /  / |_____   ||  ____  |"
+echo -e $blue"          |     \_/     | \  \/  /       /  / | |    | |"
+echo -e $yellow"        |   |\   /|   | /      \      /  /  | |____| |"
+echo -e $yellow"        |___| \_/ |___|/___/\___\    /__/   |________|"
+echo -e $cyan"         ***********************************************"
+echo -e $lightgreen"       # $red Tools For Hack         $white          #"
+echo -e $cyan"         # $red Coded       : Mx70lit    $red          #"
+echo -e $lightgreen"       # $red IG          : Medhat_70lit $white      #"
+echo -e $cyan"         # $white greetz    : DarkmythsCyberTeam $red  #"
+echo -e $lightgreen"       # $white copyright : Mx70liT © 2018  $white   #"
+echo -e $cyan"         # $white thanks to : All Membet DMCT  $red    #"
+echo -e $lightgreen"       ***********************************************"
+echo ""
+echo -e $red" 01) Spam Whatsapp"
+echo -e $white" 02) Multi BruteForce"
+echo -e $red" 03) Webdav"
+echo -e $white" 04) Metasploit"
+echo -e $red" 05) BruteForce"
+echo -e $white" 06) phising"
+echo -e $red" 07) Kali Nethunter"
+echo -e $white" 08) Ubuntu"
+echo -e $red" 09) Youtube Dl"
+echo -e $white" 10) viSQL "
+
+echo -e $white""
+read -p "[mx70lit]> " act;
+
+if [ $act = 01 ] || [ $act = 01 ]
+then
+clear
+echo -e $green" Installing Multi BruteForce "
+sleep 1
+apt update && apt upgrade
+apt install php
+apt install git
+git clone https://github.com/Mx70lit/spam
+echo -e $yellow" selesai cukk"
+echo -e $yellow" ketik 'sh spam
+sh' untuk melanjutkan "
+fi
